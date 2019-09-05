@@ -39,14 +39,14 @@ _Sin usar el script, para compilar los archivo matrizThreads.cpp y matrizSeq.cpp
 
 ```
 g++ -g -o matrizThreads.out matrizThreads.cpp -lpthread -lm
-g++ -g -o matrizThreads.out matrizThreads.cpp
+g++ -g -o matrizSeq.out matrizSeq.cpp
 ```
 
 _Para ejecutar los archivo matrizThreads.out y matrizSeq.out es necesario pasar por parámetro los tamaños N de las matrices NxN a multiplicar, por ejemplo_
 
 ```
-./matrizThreads.out 100 250 500 1000 1500 2000
-./matrizSeq.out 100 250 500 1000 1500 2000
+./matrizThreads.out 100
+./matrizSeq.out 250
 ```
 
 ## Autores ✒️
